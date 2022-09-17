@@ -26,4 +26,9 @@ class Task {
     {
         $this->task_status = $task_status;
     }
+
+    public function changeTaskManager(string $user_id)
+    {
+        $this->task_user_id = $user_id;
+    }
 }
